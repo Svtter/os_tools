@@ -1,0 +1,23 @@
+[project]
+name = "os_tools"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "svtter", email = "svtter@qq.com"},
+]
+dependencies = []
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "mkdocs>=1.6.1",
+    "pytest>=8.3.3",
+    "ruff>=0.7.1",
+    "mypy>=1.13.0",
+]
